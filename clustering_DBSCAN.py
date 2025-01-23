@@ -11,7 +11,7 @@ from scipy.interpolate import CubicSpline
 
 
 # Load Data and rename column
-file_path = r'C:\WORK\Projects\CSP\Mall_Customers.csv'  # Use raw string (r) to handle backslashes
+file_path = r'/Users/tamasbarczikay/VScode_projects/python-xgboost-clustering/Mall_Customers.csv'  # Use raw string (r) to handle backslashes
 data = pd.read_csv(file_path)
 
 data = data.rename(columns={
